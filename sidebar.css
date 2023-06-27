@@ -1,0 +1,51 @@
+p {
+  margin:0px;
+  padding-left:16px;
+}
+.sidebar {
+  position:absolute;
+  border-radius: 0px 12px 12px 0px;
+  overflow: hidden;
+  width:168px;
+  height:456px;
+  background-color:#474747;
+  left: 0;
+  top: 70px;
+  z-index:-1;
+  font-size:12px;
+}
+
+nav {
+  max-width: 168px;
+  white-space: nowrap;
+  color:white;
+}
+
+.options-container {
+  padding:10px 12px 2px 16px;
+}
+
+
+.courses-container,
+.behavior-container {
+  padding: 2px 12px 2px 16px;
+  margin-bottom:12px;
+}
+.settings-container {
+  padding: 2px 12px 10px 16px;
+}
+.option,
+.course,
+.behavior,
+.setting{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-bottom:2px;
+}
+
+.option1 {
+  width:168px;
+  margin-left:-16px;
+  background-color:rgb(240, 141, 92);
+}
+
